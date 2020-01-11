@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>UTIP Canvas test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="just">
+    <div class="tools">
+      <div class="color-size" id="color-black" onclick="changeColor('black')"></div>
+      <div class="color-size" id="color-red" onclick="changeColor('red')"></div>
+      <div class="color-size" id="color-green" onclick="changeColor('green')"></div>
+      <div class="color-size" id="color-blue" onclick="changeColor('blue')"></div>
+      <div class="color-size" id="color-purple" onclick="changeColor('purple')"></div>
+    </div>
+
+    <div class="pen-thickness">
+      <div id="pen-little" onclick="changeThickness(8)"></div>
+      <div id="pen-middle" onclick="changeThickness(11)"></div>
+      <div id="pen-big" onclick="changeThickness(14)"></div>
+    </div>
+  </div>
+
+  <canvas id="canvas">
+    Canvas не поддерживается
+  </canvas>
+
+  <div class="just">
+    <button onclick="saveDesk()">Сохранить</button>
+    <div id="color-now" class="color-size"></div>
+    <div id="thickness-now" class="pen-little"></div>
+    <button onclick="clearDesk()">Очистить</button>
+  </div>
+
+  <script src="canvas.js">
+  </script>
+</body>
+
+</html>
+

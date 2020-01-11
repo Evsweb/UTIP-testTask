@@ -1,0 +1,83 @@
+body {
+  max-width: 300px;
+  margin: 100px auto;
+}
+#canvas {
+  border: 2px solid gray;
+  width: 300px;
+  margin-top: 10px;
+}
+.just {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 28px;
+}
+.tools {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+.color-size {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.choosen {
+  border-bottom: 2px solid red;
+}
+#color-black {
+  background-color: black;
+}
+#color-red {
+  background-color: red;
+}
+#color-green {
+  background-color: green;
+}
+#color-blue {
+  background-color: blue;
+}
+#color-purple {
+  background-color: purple;
+}
+.pen-thickness {
+  display: flex;
+  width: 45%;
+  justify-content: space-evenly;
+  align-items: center;
+  border-left: 1px solid black;
+}
+#pen-little {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#pen-middle {
+  width: 22px;
+  height: 22px;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#pen-big {
+  width: 28px;
+  height: 28px;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#color-now {
+  background-color: red;
+}
+#thickness-now {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  border-radius: 50%;
+}
